@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-mingw/ldopatests[1]_tests.cmake")
+  include("C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-mingw/ldopatests[1]_tests.cmake")
+else()
+  add_test(ldopatests_NOT_BUILT ldopatests_NOT_BUILT)
+endif()

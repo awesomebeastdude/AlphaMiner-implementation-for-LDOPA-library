@@ -1,0 +1,21 @@
+digraph G {
+    node [width=0.5];
+x29988bb0 [label="[]"]
+x29988cd0 [label="[s2]"]
+x29988d60 [label="[s3]"]
+x29988a00 [label="[s4]"]
+x29988df0 [label="[s5]"]
+x299883d0 [label="[s6]"]
+x29988460 [label="[s7]"]
+x29988bb0 -> x29988cd0 [label="a"]
+x29988cd0 -> x29988d60 [label="c"]
+x29988d60 -> x29988a00 [label="b"]
+x29988cd0 -> x29988df0 [label="d"]
+x29988cd0 -> x29988460 [label="b"]
+x29988df0 -> x29988bb0 [label="b"]
+x29988460 -> x29988bb0 [label="d"]
+x29988d60 -> x299883d0 [label="d"]
+x299883d0 -> x29988bb0 [label="b"]
+x29988a00 -> x29988bb0 [label="d"]
+x29988df0 -> x299883d0 [label="c"]
+}

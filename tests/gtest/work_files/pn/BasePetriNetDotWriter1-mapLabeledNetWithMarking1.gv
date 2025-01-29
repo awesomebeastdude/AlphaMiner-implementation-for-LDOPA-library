@@ -1,0 +1,16 @@
+digraph G {
+    node [width=0.5];
+xeae2b180 [label="p0   (1)"]
+xeae2a910 [label="p1"]
+xeae2b2a0 [label="p2"]
+xeae2aac0 [label="p3"]
+xeae2afd0 [label="(2)"]
+xeae2ab50 [label="t1",shape=box]
+xeae2a880 [label="t2",shape=box]
+xeae2b180 -> xeae2ab50 
+xeae2b180 -> xeae2a880 [arrowhead=odot]
+xeae2a910 -> xeae2a880 [label="/3"]
+xeae2ab50 -> xeae2b2a0 
+xeae2ab50 -> xeae2aac0 
+xeae2a880 -> xeae2afd0 
+}

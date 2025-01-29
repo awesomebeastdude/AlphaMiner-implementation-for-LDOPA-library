@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/CMakeFiles/ldopatests.dir/embed.manifest"

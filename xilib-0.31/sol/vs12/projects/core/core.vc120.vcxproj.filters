@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{2f8c72cc-417a-406a-b86c-f039263eab12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1bc568df-5ce2-41ed-bafa-9f6ea0693cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xi">
+      <UniqueIdentifier>{4e8eee6a-cec4-44dd-b7de-fd0114b4e416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xi\types">
+      <UniqueIdentifier>{343ffdc2-8a57-4727-8c15-bab9d2c5b4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xi\collections">
+      <UniqueIdentifier>{e5d75148-e783-4270-ad12-65f772c76457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xi\attributes">
+      <UniqueIdentifier>{5ff66c3e-7203-4116-9a75-3dbfc3ba66c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\xi\attributes\obsolete1">
+      <UniqueIdentifier>{aef27aef-fdab-46a8-90a5-0c2bf2b18b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\attributes\boost_attr.h">
+      <Filter>src\xi\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\attributes\destructable_object.h">
+      <Filter>src\xi\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\collections\enumerators_obsolete1.hpp">
+      <Filter>src\xi\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\collections\enumerators.hpp">
+      <Filter>src\xi\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\xilib_dll.h">
+      <Filter>src\xi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\attributes\obsolete1\boost_attr.h">
+      <Filter>src\xi\attributes\obsolete1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\xi\types\aliases.h">
+      <Filter>src\xi\types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\xi\attributes\destructable_object.cpp">
+      <Filter>src\xi\attributes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

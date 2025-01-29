@@ -1,0 +1,18 @@
+digraph G {
+    node [width=0.5];
+x5362a20 [label="[]"]
+x5362cf0 [label="[s2]"]
+x5362480 [label="[s3]"]
+x5362510 [label="[s4]"]
+x53626c0 [label="[s5]"]
+x53625a0 [label="[s6]"]
+x53627e0 [label="[send]",peripheries=2]
+x5362a20 -> x5362cf0 [label="a"]
+x5362a20 -> x5362480 [label="b"]
+x5362cf0 -> x5362510 [label="c"]
+x5362480 -> x53626c0 [label="c"]
+x5362510 -> x53625a0 [label="b"]
+x53626c0 -> x53625a0 [label="a"]
+x53625a0 -> x53627e0 [label=""]
+x53625a0 -> x53625a0 [label="d"]
+}

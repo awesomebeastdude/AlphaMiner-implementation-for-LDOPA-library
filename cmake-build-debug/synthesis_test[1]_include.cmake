@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/synthesis_test[1]_tests.cmake")
+  include("C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/synthesis_test[1]_tests.cmake")
+else()
+  add_test(synthesis_test_NOT_BUILT synthesis_test_NOT_BUILT)
+endif()

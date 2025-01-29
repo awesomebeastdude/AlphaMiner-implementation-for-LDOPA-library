@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "boost-1.87.0/libs/type_erasure",
+		"source" : "boost-1.87.0/libs/type_erasure"
+	}
+}

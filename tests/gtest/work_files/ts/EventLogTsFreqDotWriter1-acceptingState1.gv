@@ -1,0 +1,8 @@
+digraph G {
+    node [width=0.5];
+x87c2aad0 [label="[]"]
+x87c2afe0 [label="[a]",peripheries=2]
+x87c2b190 [label="[b]"]
+x87c2aad0 -> x87c2afe0 [label="a/1"]
+x87c2aad0 -> x87c2b190 [label="b"]
+}

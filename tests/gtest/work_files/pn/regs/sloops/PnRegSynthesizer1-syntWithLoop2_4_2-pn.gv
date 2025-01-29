@@ -1,0 +1,16 @@
+digraph G {
+    node [width=0.5];
+x8924a070 [label="a",shape=box]
+x8924a100 [label="b",shape=box]
+x89249920 [label="x",shape=box]
+x89249b60 [label="[s2],[],   (1)"]
+x892494a0 [label="[s1],[],   (1)"]
+x8924a220 [label="[s2],[s3],"]
+x89249b60 -> x8924a070 
+x89249b60 -> x89249920 
+x89249920 -> x89249b60 
+x892494a0 -> x8924a100 
+x8924a100 -> x8924a220 
+x8924a220 -> x89249920 
+x89249920 -> x8924a220 
+}

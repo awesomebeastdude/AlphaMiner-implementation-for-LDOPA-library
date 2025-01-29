@@ -1,0 +1,16 @@
+digraph G {
+    node [width=0.5];
+x507f90d0 [label="(1)"]
+x507f8bc0 [label="(2)"]
+x507f9670 [label=""]
+x507f9700 [label=""]
+x507f8c50 [label=""]
+x507f9430 [label="t1",shape=box]
+x507f8f20 [label="t2",shape=box]
+x507f90d0 -> x507f9430 
+x507f90d0 -> x507f8f20 
+x507f8bc0 -> x507f8f20 
+x507f9430 -> x507f9670 
+x507f9430 -> x507f9700 
+x507f8f20 -> x507f8c50 
+}

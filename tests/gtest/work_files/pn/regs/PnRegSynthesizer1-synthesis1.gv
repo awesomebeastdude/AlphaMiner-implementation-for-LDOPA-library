@@ -1,0 +1,25 @@
+digraph G {
+    node [width=0.5];
+x2714b640 [label="a",shape=box]
+x2714aef0 [label="b",shape=box]
+x2714b130 [label="b",shape=box]
+x2714b0a0 [label="c",shape=box]
+x2714b250 [label="d",shape=box]
+x2715d400 [label="(1)"]
+x2715de20 [label="(1)"]
+x2715d1c0 [label=""]
+x2715d2e0 [label=""]
+x2715d0a0 [label=""]
+x2715d400 -> x2714b640 
+x2714aef0 -> x2715d400 
+x2714b130 -> x2715d400 
+x2715de20 -> x2714b640 
+x2714b250 -> x2715de20 
+x2715d1c0 -> x2714aef0 
+x2714b0a0 -> x2715d1c0 
+x2714b640 -> x2715d2e0 
+x2715d2e0 -> x2714b130 
+x2715d2e0 -> x2714b0a0 
+x2714b640 -> x2715d0a0 
+x2715d0a0 -> x2714b250 
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "boost-1.87.0/libs/stl_interfaces",
+		"source" : "boost-1.87.0/libs/stl_interfaces"
+	}
+}

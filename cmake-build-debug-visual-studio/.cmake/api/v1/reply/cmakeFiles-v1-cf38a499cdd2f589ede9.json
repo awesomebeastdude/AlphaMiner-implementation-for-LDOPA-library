@@ -1,0 +1,1240 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/GoogleTest.cmake"
+		},
+		{
+			"path" : "xilib-0.31/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/tools/cmake/include/BoostRoot.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/tools/cmake/include/BoostMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/tools/cmake/include/BoostInstall.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/tools/cmake/include/BoostMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/accumulators/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/algorithm/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/align/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/any/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/array/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/asio/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/assert/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/assign/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/atomic/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/atomic/cmake/BoostLibraryIncludes.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/beast/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/bimap/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/bind/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/callable_traits/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/charconv/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/chrono/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/circular_buffer/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/cobalt/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/cobalt/cmake/CheckRequirements.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/cobalt/cmake/coroutine.cpp"
+		},
+		{
+			"path" : "boost-1.87.0/libs/cobalt/cmake/concepts.cpp"
+		},
+		{
+			"path" : "boost-1.87.0/libs/cobalt/cmake/memory_resource.cpp"
+		},
+		{
+			"path" : "boost-1.87.0/libs/compat/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/compute/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/concept_check/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/config/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/container/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/container_hash/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/context/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeASM_MASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeASM_MASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/contract/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/conversion/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/convert/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/core/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/coroutine/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/coroutine2/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/crc/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/date_time/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/describe/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/detail/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/dll/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/dynamic_bitset/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/endian/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/exception/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/fiber/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/filesystem/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/filesystem/cmake/BoostLibraryIncludes.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/flyweight/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/foreach/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/format/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/function/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/function_types/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/functional/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/fusion/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/geometry/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/gil/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/graph/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/hana/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/headers/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/heap/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/histogram/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/hof/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/icl/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/integer/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/interprocess/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/intrusive/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/io/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/iostreams/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindBZip2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindLibLZMA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/iterator/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/json/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/json/pretty_printers/FindBoostPrettyPrinters.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/lambda/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/lambda2/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/leaf/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/lexical_cast/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/local_function/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/locale/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindICU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindIconv.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/lockfree/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/log/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/log/cmake/BoostLibraryIncludes.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/logic/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/math/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/metaparse/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/move/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/mp11/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/mpl/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/msm/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/multi_array/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/multi_index/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/multiprecision/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/mysql/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/nowide/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/nowide/cmake/BoostAddWarnings.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/numeric/conversion/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/numeric/interval/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/numeric/odeint/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/numeric/ublas/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/optional/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/outcome/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/parameter/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/parser/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/pfr/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/phoenix/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/poly_collection/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/polygon/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/pool/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/predef/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/preprocessor/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/process/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/program_options/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/property_map/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/property_tree/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/proto/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/ptr_container/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/qvm/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/random/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/range/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/ratio/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/rational/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/redis/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/regex/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindICU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/safe_numerics/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/scope/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/scope_exit/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/serialization/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/signals2/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/smart_ptr/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/sort/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/spirit/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/stacktrace/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/statechart/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/static_assert/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/static_string/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/stl_interfaces/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/system/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/test/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/thread/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "boost-1.87.0/libs/throw_exception/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/timer/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/tokenizer/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/tti/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/tuple/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/type_erasure/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/type_index/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/type_traits/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/typeof/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/units/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/unordered/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/url/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/utility/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/uuid/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/variant/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/variant2/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/vmd/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/wave/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/winapi/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/xpressive/CMakeLists.txt"
+		},
+		{
+			"path" : "boost-1.87.0/libs/yap/CMakeLists.txt"
+		},
+		{
+			"path" : "googletest/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "googletest/googlemock/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "googletest/googlemock/cmake/gmock.pc.in"
+		},
+		{
+			"path" : "googletest/googlemock/cmake/gmock_main.pc.in"
+		},
+		{
+			"path" : "googletest/googletest/CMakeLists.txt"
+		},
+		{
+			"path" : "googletest/googletest/cmake/internal_utils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPython.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "googletest/googletest/cmake/Config.cmake.in"
+		},
+		{
+			"path" : "googletest/googletest/cmake/gtest.pc.in"
+		},
+		{
+			"path" : "googletest/googletest/cmake/gtest_main.pc.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,3118 @@
+Start testing: Jan 29 15:44 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/106 Testing: BidiGraph_1Test.add1
+1/106 Test: BidiGraph_1Test.add1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.add1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.add1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.add1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.add1
+--[Debug]--> BidiGraph(): 0xcb170ba0
+--[Debug]--> ListVerticesStorage(): 0xcb16a310
+--[Debug]--> OutInMMapEdgeStorage(): 0xcb1713f0
+--[Debug]--> BidiGraphVertex(): 0xcb16e120
+--[Debug]--> BidiGraphVertex(): 0xcb16ead0
+--[Debug]--> ~BidiGraph(): 0xcb170ba0
+--[Debug]--> ~BidiGraphVertex(): 0xcb16e120
+--[Debug]--> ~BidiGraphVertex(): 0xcb16ead0
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xcb1713f0
+--[Debug]--> ~ListVerticesStorage(): 0xcb16a310
+[       OK ] BidiGraph_1Test.add1 (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.add1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.add1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/106 Testing: BidiGraph_1Test.clearGraph1
+2/106 Test: BidiGraph_1Test.clearGraph1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.clearGraph1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.clearGraph1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.clearGraph1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.clearGraph1
+--[Debug]--> BidiGraph(): 0xaae6ab10
+--[Debug]--> ListVerticesStorage(): 0xaae69c30
+--[Debug]--> OutInMMapEdgeStorage(): 0xaae306b0
+--[Debug]--> BidiGraphVertex(): 0xaae6ebb0
+--[Debug]--> BidiGraphVertex(): 0xaae6ea70
+--[Debug]--> ~BidiGraphVertex(): 0xaae6ebb0
+--[Debug]--> ~BidiGraphVertex(): 0xaae6ea70
+--[Debug]--> ~BidiGraph(): 0xaae6ab10
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xaae306b0
+--[Debug]--> ~ListVerticesStorage(): 0xaae69c30
+[       OK ] BidiGraph_1Test.clearGraph1 (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.clearGraph1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.clearGraph1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/106 Testing: BidiGraph_1Test.addEdge1
+3/106 Test: BidiGraph_1Test.addEdge1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.addEdge1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.addEdge1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.addEdge1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.addEdge1
+--[Debug]--> BidiGraph(): 0x35d5a020
+--[Debug]--> ListVerticesStorage(): 0x35d58570
+--[Debug]--> OutInMMapEdgeStorage(): 0x35d591d0
+--[Debug]--> BidiGraphVertex(): 0x35d5e6c0
+--[Debug]--> BidiGraphVertex(): 0x35d5e170
+--[Debug]--> BidiGraphEdge(): 0x35d5dd10
+--[Debug]--> ~BidiGraphEdge(): 0x35d5dd10
+--[Debug]--> ~BidiGraphVertex(): 0x35d5e6c0
+--[Debug]--> ~BidiGraphVertex(): 0x35d5e170
+--[Debug]--> ~BidiGraph(): 0x35d5a020
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x35d591d0
+--[Debug]--> ~ListVerticesStorage(): 0x35d58570
+[       OK ] BidiGraph_1Test.addEdge1 (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.addEdge1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.addEdge1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/106 Testing: BidiGraph_1Test.addEdgeDupl
+4/106 Test: BidiGraph_1Test.addEdgeDupl
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.addEdgeDupl" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.addEdgeDupl" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.addEdgeDupl
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.addEdgeDupl
+--[Debug]--> BidiGraph(): 0xcde1aa30
+--[Debug]--> ListVerticesStorage(): 0xcde5b550
+--[Debug]--> OutInMMapEdgeStorage(): 0xcde50020
+--[Debug]--> BidiGraphVertex(): 0xcde301d0
+--[Debug]--> BidiGraphVertex(): 0xcde5ec10
+--[Debug]--> BidiGraphEdge(): 0xcde5ee90
+--[Debug]--> BidiGraphEdge(): 0xcde5e9e0
+--[Debug]--> ~BidiGraph(): 0xcde1aa30
+--[Debug]--> ~BidiGraphEdge(): 0xcde5ee90
+--[Debug]--> ~BidiGraphEdge(): 0xcde5e9e0
+--[Debug]--> ~BidiGraphVertex(): 0xcde301d0
+--[Debug]--> ~BidiGraphVertex(): 0xcde5ec10
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xcde50020
+--[Debug]--> ~ListVerticesStorage(): 0xcde5b550
+[       OK ] BidiGraph_1Test.addEdgeDupl (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.addEdgeDupl" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.addEdgeDupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/106 Testing: BidiGraph_1Test.getOrAddEdge
+5/106 Test: BidiGraph_1Test.getOrAddEdge
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.getOrAddEdge" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.getOrAddEdge" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.getOrAddEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.getOrAddEdge
+--[Debug]--> BidiGraph(): 0xe0509670
+--[Debug]--> ListVerticesStorage(): 0xe05080c0
+--[Debug]--> OutInMMapEdgeStorage(): 0xe04cc3f0
+--[Debug]--> BidiGraphVertex(): 0xe050c7d0
+--[Debug]--> BidiGraphVertex(): 0xe050bf10
+--[Debug]--> BidiGraphEdge(): 0xe050ce60
+--[Debug]--> ~BidiGraph(): 0xe0509670
+--[Debug]--> ~BidiGraphEdge(): 0xe050ce60
+--[Debug]--> ~BidiGraphVertex(): 0xe050c7d0
+--[Debug]--> ~BidiGraphVertex(): 0xe050bf10
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xe04cc3f0
+--[Debug]--> ~ListVerticesStorage(): 0xe05080c0
+[       OK ] BidiGraph_1Test.getOrAddEdge (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.getOrAddEdge" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.getOrAddEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/106 Testing: BidiGraph_1Test.addEdgeWithCheckExistance
+6/106 Test: BidiGraph_1Test.addEdgeWithCheckExistance
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.addEdgeWithCheckExistance" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.addEdgeWithCheckExistance" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.addEdgeWithCheckExistance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.addEdgeWithCheckExistance
+--[Debug]--> BidiGraph(): 0xc79dc990
+--[Debug]--> ListVerticesStorage(): 0xc7a18b00
+--[Debug]--> OutInMMapEdgeStorage(): 0xc79de6b0
+--[Debug]--> BidiGraphVertex(): 0xc7a1deb0
+--[Debug]--> BidiGraphVertex(): 0xc7a1e040
+--[Debug]--> BidiGraphEdge(): 0xc7a1d5f0
+--[Debug]--> ~BidiGraph(): 0xc79dc990
+--[Debug]--> ~BidiGraphEdge(): 0xc7a1d5f0
+--[Debug]--> ~BidiGraphVertex(): 0xc7a1deb0
+--[Debug]--> ~BidiGraphVertex(): 0xc7a1e040
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xc79de6b0
+--[Debug]--> ~ListVerticesStorage(): 0xc7a18b00
+[       OK ] BidiGraph_1Test.addEdgeWithCheckExistance (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.addEdgeWithCheckExistance" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.addEdgeWithCheckExistance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/106 Testing: BidiGraph_1Test.addingMultipleEdges
+7/106 Test: BidiGraph_1Test.addingMultipleEdges
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.addingMultipleEdges" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.addingMultipleEdges" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.addingMultipleEdges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.addingMultipleEdges
+--[Debug]--> BidiGraph(): 0x88c313e0
+--[Debug]--> ListVerticesStorage(): 0x88c2a0d0
+--[Debug]--> OutInMMapEdgeStorage(): 0x88c32330
+--[Debug]--> BidiGraphVertex(): 0x88c2d5b0
+--[Debug]--> BidiGraphVertex(): 0x88c2dc40
+--[Debug]--> BidiGraphEdge(): 0x88c2dd30
+--[Debug]--> BidiGraphEdge(): 0x88c2da60
+--[Debug]--> ~BidiGraph(): 0x88c313e0
+--[Debug]--> ~BidiGraphEdge(): 0x88c2dd30
+--[Debug]--> ~BidiGraphEdge(): 0x88c2da60
+--[Debug]--> ~BidiGraphVertex(): 0x88c2d5b0
+--[Debug]--> ~BidiGraphVertex(): 0x88c2dc40
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x88c32330
+--[Debug]--> ~ListVerticesStorage(): 0x88c2a0d0
+[       OK ] BidiGraph_1Test.addingMultipleEdges (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.addingMultipleEdges" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.addingMultipleEdges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/106 Testing: BidiGraph_1Test.addingMultipleEdgesForDifVertices
+8/106 Test: BidiGraph_1Test.addingMultipleEdgesForDifVertices
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.addingMultipleEdgesForDifVertices" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.addingMultipleEdgesForDifVertices" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.addingMultipleEdgesForDifVertices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.addingMultipleEdgesForDifVertices
+--[Debug]--> BidiGraph(): 0x518edf00
+--[Debug]--> ListVerticesStorage(): 0x518f9060
+--[Debug]--> OutInMMapEdgeStorage(): 0x518fb9b0
+--[Debug]--> BidiGraphVertex(): 0x518fcad0
+--[Debug]--> BidiGraphVertex(): 0x518fc300
+--[Debug]--> BidiGraphVertex(): 0x518fc2b0
+--[Debug]--> BidiGraphEdge(): 0x518fbd60
+--[Debug]--> BidiGraphEdge(): 0x518fbe50
+--[Debug]--> BidiGraphEdge(): 0x518fbea0
+--[Debug]--> ~BidiGraph(): 0x518edf00
+--[Debug]--> ~BidiGraphEdge(): 0x518fbea0
+--[Debug]--> ~BidiGraphEdge(): 0x518fbd60
+--[Debug]--> ~BidiGraphEdge(): 0x518fbe50
+--[Debug]--> ~BidiGraphVertex(): 0x518fcad0
+--[Debug]--> ~BidiGraphVertex(): 0x518fc300
+--[Debug]--> ~BidiGraphVertex(): 0x518fc2b0
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x518fb9b0
+--[Debug]--> ~ListVerticesStorage(): 0x518f9060
+[       OK ] BidiGraph_1Test.addingMultipleEdgesForDifVertices (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.addingMultipleEdgesForDifVertices" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.addingMultipleEdgesForDifVertices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/106 Testing: BidiGraph_1Test.enumerateVertices
+9/106 Test: BidiGraph_1Test.enumerateVertices
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_1Test.enumerateVertices" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_1Test.enumerateVertices" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_1Test.enumerateVertices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_1Test
+[ RUN      ] BidiGraph_1Test.enumerateVertices
+--[Debug]--> BidiGraph(): 0xd0d6aa40
+--[Debug]--> ListVerticesStorage(): 0xd0d69710
+--[Debug]--> OutInMMapEdgeStorage(): 0xd0d69e30
+--[Debug]--> BidiGraphVertex(): 0xd0d6f5f0
+--[Debug]--> BidiGraphVertex(): 0xd0d6ed30
+--[Debug]--> ~BidiGraph(): 0xd0d6aa40
+--[Debug]--> ~BidiGraphVertex(): 0xd0d6f5f0
+--[Debug]--> ~BidiGraphVertex(): 0xd0d6ed30
+--[Debug]--> ~OutInMMapEdgeStorage(): 0xd0d69e30
+--[Debug]--> ~ListVerticesStorage(): 0xd0d69710
+[       OK ] BidiGraph_1Test.enumerateVertices (0 ms)
+[----------] 1 test from BidiGraph_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_1Test.enumerateVertices" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_1Test.enumerateVertices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/106 Testing: BidiGraph_2Test.storageEngines
+10/106 Test: BidiGraph_2Test.storageEngines
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.storageEngines" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.storageEngines" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.storageEngines
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.storageEngines
+--[Debug]--> MapNamedVerticesStorage(): 0x32ff8600
+--[Debug]--> BidiGraph(): 0x32ff31c0
+--[Debug]--> OutInMMapEdgeStorage(): 0x32ffe730
+--[Debug]--> ~BidiGraph(): 0x32ff31c0
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x32ffe730
+--[Debug]--> ~MapNamedVerticesStorage(): 0x32ff8600
+[       OK ] BidiGraph_2Test.storageEngines (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.storageEngines" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.storageEngines" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/106 Testing: BidiGraph_2Test.add1
+11/106 Test: BidiGraph_2Test.add1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.add1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.add1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.add1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.add1
+--[Debug]--> MapNamedVerticesStorage(): 0x3170bcb0
+--[Debug]--> BidiGraph(): 0x317080d0
+--[Debug]--> OutInMMapEdgeStorage(): 0x31701470
+--[Debug]--> BidiGraphVertex(): 0x31710e10
+--[Debug]--> BidiGraphVertex(): 0x31710e60
+--[Debug]--> ~BidiGraph(): 0x317080d0
+--[Debug]--> ~BidiGraphVertex(): 0x31710e10
+--[Debug]--> ~BidiGraphVertex(): 0x31710e60
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x31701470
+--[Debug]--> ~MapNamedVerticesStorage(): 0x3170bcb0
+[       OK ] BidiGraph_2Test.add1 (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.add1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.add1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/106 Testing: BidiGraph_2Test.addDuplicates
+12/106 Test: BidiGraph_2Test.addDuplicates
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.addDuplicates" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.addDuplicates" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.addDuplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.addDuplicates
+--[Debug]--> MapNamedVerticesStorage(): 0x38637430
+--[Debug]--> BidiGraph(): 0x386330a0
+--[Debug]--> OutInMMapEdgeStorage(): 0x3863e940
+--[Debug]--> BidiGraphVertex(): 0x3863d0f0
+--[Debug]--> ~BidiGraph(): 0x386330a0
+--[Debug]--> ~BidiGraphVertex(): 0x3863d0f0
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x3863e940
+--[Debug]--> ~MapNamedVerticesStorage(): 0x38637430
+[       OK ] BidiGraph_2Test.addDuplicates (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.addDuplicates" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.addDuplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/106 Testing: BidiGraph_2Test.enumerateVertices
+13/106 Test: BidiGraph_2Test.enumerateVertices
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.enumerateVertices" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.enumerateVertices" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.enumerateVertices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.enumerateVertices
+--[Debug]--> MapNamedVerticesStorage(): 0x22fe9010
+--[Debug]--> BidiGraph(): 0x22fed4e0
+--[Debug]--> OutInMMapEdgeStorage(): 0x22fab8f0
+--[Debug]--> BidiGraphVertex(): 0x22fed620
+--[Debug]--> BidiGraphVertex(): 0x22feda30
+--[Debug]--> ~BidiGraph(): 0x22fed4e0
+--[Debug]--> ~BidiGraphVertex(): 0x22fed620
+--[Debug]--> ~BidiGraphVertex(): 0x22feda30
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x22fab8f0
+--[Debug]--> ~MapNamedVerticesStorage(): 0x22fe9010
+[       OK ] BidiGraph_2Test.enumerateVertices (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.enumerateVertices" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.enumerateVertices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/106 Testing: BidiGraph_2Test.searchVertex1
+14/106 Test: BidiGraph_2Test.searchVertex1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.searchVertex1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.searchVertex1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.searchVertex1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.searchVertex1
+--[Debug]--> MapNamedVerticesStorage(): 0x58ca9640
+--[Debug]--> BidiGraph(): 0x58ca6100
+--[Debug]--> OutInMMapEdgeStorage(): 0x58c829e0
+--[Debug]--> BidiGraphVertex(): 0x58caef40
+--[Debug]--> BidiGraphVertex(): 0x58cae680
+--[Debug]--> ~BidiGraph(): 0x58ca6100
+--[Debug]--> ~BidiGraphVertex(): 0x58caef40
+--[Debug]--> ~BidiGraphVertex(): 0x58cae680
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x58c829e0
+--[Debug]--> ~MapNamedVerticesStorage(): 0x58ca9640
+[       OK ] BidiGraph_2Test.searchVertex1 (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.searchVertex1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.searchVertex1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/106 Testing: BidiGraph_2Test.searchReverseLoockupMap1
+15/106 Test: BidiGraph_2Test.searchReverseLoockupMap1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BidiGraph_2Test.searchReverseLoockupMap1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BidiGraph_2Test.searchReverseLoockupMap1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BidiGraph_2Test.searchReverseLoockupMap1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidiGraph_2Test
+[ RUN      ] BidiGraph_2Test.searchReverseLoockupMap1
+--[Debug]--> MapNamedVerticesStorage(): 0x46d38310
+--[Debug]--> BidiGraph(): 0x46d34360
+--[Debug]--> OutInMMapEdgeStorage(): 0x46d38bd0
+--[Debug]--> MapNamedVerticesStorage(): 0x46d38700
+--[Debug]--> BidiGraph(): 0x41b9f1a8
+--[Debug]--> OutInMMapEdgeStorage(): 0x46d40730
+--[Debug]--> BidiGraphVertex(): 0x46d3cda0
+--[Debug]--> BidiGraphVertex(): 0x46d3c8f0
+--[Debug]--> BidiGraphVertex(): 0x46d3d5c0
+--[Debug]--> ~BidiGraphVertex(): 0x46d3cda0
+--[Debug]--> ~BidiGraphVertex(): 0x46d3c8f0
+--[Debug]--> ~BidiGraphVertex(): 0x46d3d5c0
+--[Debug]--> ~BidiGraph(): 0x41b9f1a8
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x46d40730
+--[Debug]--> ~MapNamedVerticesStorage(): 0x46d38700
+--[Debug]--> ~BidiGraph(): 0x46d34360
+--[Debug]--> ~OutInMMapEdgeStorage(): 0x46d38bd0
+--[Debug]--> ~MapNamedVerticesStorage(): 0x46d38310
+[       OK ] BidiGraph_2Test.searchReverseLoockupMap1 (0 ms)
+[----------] 1 test from BidiGraph_2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidiGraph_2Test.searchReverseLoockupMap1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BidiGraph_2Test.searchReverseLoockupMap1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/106 Testing: BasePetriNetDotWriter1.mapLabeledNet1
+16/106 Test: BasePetriNetDotWriter1.mapLabeledNet1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BasePetriNetDotWriter1.mapLabeledNet1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BasePetriNetDotWriter1.mapLabeledNet1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BasePetriNetDotWriter1.mapLabeledNet1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasePetriNetDotWriter1
+[ RUN      ] BasePetriNetDotWriter1.mapLabeledNet1
+[       OK ] BasePetriNetDotWriter1.mapLabeledNet1 (0 ms)
+[----------] 1 test from BasePetriNetDotWriter1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BasePetriNetDotWriter1.mapLabeledNet1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BasePetriNetDotWriter1.mapLabeledNet1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/106 Testing: BasePetriNetDotWriter1.mapLabeledNetWithMarking1
+17/106 Test: BasePetriNetDotWriter1.mapLabeledNetWithMarking1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BasePetriNetDotWriter1.mapLabeledNetWithMarking1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BasePetriNetDotWriter1.mapLabeledNetWithMarking1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BasePetriNetDotWriter1.mapLabeledNetWithMarking1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasePetriNetDotWriter1
+[ RUN      ] BasePetriNetDotWriter1.mapLabeledNetWithMarking1
+[       OK ] BasePetriNetDotWriter1.mapLabeledNetWithMarking1 (0 ms)
+[----------] 1 test from BasePetriNetDotWriter1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BasePetriNetDotWriter1.mapLabeledNetWithMarking1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BasePetriNetDotWriter1.mapLabeledNetWithMarking1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/106 Testing: PnRegSynthesizer1.simpleTs1
+18/106 Test: PnRegSynthesizer1.simpleTs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.simpleTs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.simpleTs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.simpleTs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.simpleTs1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(84): error: Expected equality of these values:
+  3
+  synth.getLbl2Transs().size()
+    Which is: 6
+[  FAILED  ] PnRegSynthesizer1.simpleTs1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PnRegSynthesizer1.simpleTs1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"PnRegSynthesizer1.simpleTs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.simpleTs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/106 Testing: PnRegSynthesizer1.isRegion1
+19/106 Test: PnRegSynthesizer1.isRegion1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.isRegion1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.isRegion1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.isRegion1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.isRegion1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(157): error: Expected equality of these values:
+  3
+  synth.getLbl2Transs().size()
+    Which is: 6
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(191): error: Value of: synth.isRegion(nr1)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(192): error: Value of: synth.isRegion(nr2)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(193): error: Value of: synth.isRegion(nr3)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(194): error: Value of: synth.isRegion(nr4)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(195): error: Value of: synth.isRegion(nr5)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(196): error: Value of: synth.isRegion(nr6)
+  Actual: true
+Expected: false
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\pn\algos\pn_synthesis_1_test.cpp(197): error: Value of: synth.isRegion(nr7)
+  Actual: true
+Expected: false
+[  FAILED  ] PnRegSynthesizer1.isRegion1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PnRegSynthesizer1.isRegion1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"PnRegSynthesizer1.isRegion1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.isRegion1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/106 Testing: PnRegSynthesizer1.checkSubSuperSets1
+20/106 Test: PnRegSynthesizer1.checkSubSuperSets1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.checkSubSuperSets1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.checkSubSuperSets1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.checkSubSuperSets1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.checkSubSuperSets1
+[       OK ] PnRegSynthesizer1.checkSubSuperSets1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.checkSubSuperSets1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.checkSubSuperSets1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/106 Testing: PnRegSynthesizer1.removeSubsets1
+21/106 Test: PnRegSynthesizer1.removeSubsets1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.removeSubsets1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.removeSubsets1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.removeSubsets1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.removeSubsets1
+[       OK ] PnRegSynthesizer1.removeSubsets1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.removeSubsets1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.removeSubsets1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/106 Testing: PnRegSynthesizer1.setIntersection1
+22/106 Test: PnRegSynthesizer1.setIntersection1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.setIntersection1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.setIntersection1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.setIntersection1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.setIntersection1
+[       OK ] PnRegSynthesizer1.setIntersection1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.setIntersection1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.setIntersection1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/106 Testing: PnRegSynthesizer1.genMinPreRegions1
+23/106 Test: PnRegSynthesizer1.genMinPreRegions1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.genMinPreRegions1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.genMinPreRegions1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.genMinPreRegions1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.genMinPreRegions1
+[       OK ] PnRegSynthesizer1.genMinPreRegions1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.genMinPreRegions1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.genMinPreRegions1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/106 Testing: PnRegSynthesizer1.genMinPreRegions2
+24/106 Test: PnRegSynthesizer1.genMinPreRegions2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.genMinPreRegions2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.genMinPreRegions2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.genMinPreRegions2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.genMinPreRegions2
+[       OK ] PnRegSynthesizer1.genMinPreRegions2 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.genMinPreRegions2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.genMinPreRegions2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/106 Testing: PnRegSynthesizer1.splitLabel1
+25/106 Test: PnRegSynthesizer1.splitLabel1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.splitLabel1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.splitLabel1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.splitLabel1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.splitLabel1
+[       OK ] PnRegSynthesizer1.splitLabel1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.splitLabel1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.splitLabel1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/106 Testing: PnRegSynthesizer1.splitLabelTs1
+26/106 Test: PnRegSynthesizer1.splitLabelTs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.splitLabelTs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.splitLabelTs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.splitLabelTs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.splitLabelTs1
+[       OK ] PnRegSynthesizer1.splitLabelTs1 (0 ms)
+[----------] 1 test from PnRegSynthesizer1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.splitLabelTs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.splitLabelTs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/106 Testing: PnRegSynthesizer1.genMinPreRegions2WithManualSplit1
+27/106 Test: PnRegSynthesizer1.genMinPreRegions2WithManualSplit1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.genMinPreRegions2WithManualSplit1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.genMinPreRegions2WithManualSplit1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.genMinPreRegions2WithManualSplit1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.genMinPreRegions2WithManualSplit1
+[       OK ] PnRegSynthesizer1.genMinPreRegions2WithManualSplit1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.genMinPreRegions2WithManualSplit1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.genMinPreRegions2WithManualSplit1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/106 Testing: PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1
+28/106 Test: PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1
+[       OK ] PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.genMinPreRegions2WithAutoSplit1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/106 Testing: PnRegSynthesizer1.genValidPreRegions1
+29/106 Test: PnRegSynthesizer1.genValidPreRegions1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.genValidPreRegions1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.genValidPreRegions1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.genValidPreRegions1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.genValidPreRegions1
+[       OK ] PnRegSynthesizer1.genValidPreRegions1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.genValidPreRegions1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.genValidPreRegions1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/106 Testing: PnRegSynthesizer1.synthesis1
+30/106 Test: PnRegSynthesizer1.synthesis1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesis1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesis1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesis1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesis1
+[       OK ] PnRegSynthesizer1.synthesis1 (2 ms)
+[----------] 1 test from PnRegSynthesizer1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesis1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesis1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/106 Testing: PnRegSynthesizer1.synthesis2
+31/106 Test: PnRegSynthesizer1.synthesis2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesis2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesis2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesis2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesis2
+[       OK ] PnRegSynthesizer1.synthesis2 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesis2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesis2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/106 Testing: PnRegSynthesizer1.synthesis2_1
+32/106 Test: PnRegSynthesizer1.synthesis2_1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesis2_1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesis2_1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesis2_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesis2_1
+[       OK ] PnRegSynthesizer1.synthesis2_1 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesis2_1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesis2_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/106 Testing: PnRegSynthesizer1.synthesis2_2
+33/106 Test: PnRegSynthesizer1.synthesis2_2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesis2_2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesis2_2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesis2_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesis2_2
+[       OK ] PnRegSynthesizer1.synthesis2_2 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesis2_2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesis2_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/106 Testing: PnRegSynthesizer1.synthesisLoop2_3
+34/106 Test: PnRegSynthesizer1.synthesisLoop2_3
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesisLoop2_3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesisLoop2_3" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesisLoop2_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesisLoop2_3
+[       OK ] PnRegSynthesizer1.synthesisLoop2_3 (2 ms)
+[----------] 1 test from PnRegSynthesizer1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesisLoop2_3" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesisLoop2_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/106 Testing: PnRegSynthesizer1.synthesisLoop2_4_2
+35/106 Test: PnRegSynthesizer1.synthesisLoop2_4_2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesisLoop2_4_2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesisLoop2_4_2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesisLoop2_4_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesisLoop2_4_2
+[       OK ] PnRegSynthesizer1.synthesisLoop2_4_2 (2 ms)
+[----------] 1 test from PnRegSynthesizer1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesisLoop2_4_2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesisLoop2_4_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/106 Testing: PnRegSynthesizer1.synthesisLoop2_4_5
+36/106 Test: PnRegSynthesizer1.synthesisLoop2_4_5
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesisLoop2_4_5" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesisLoop2_4_5" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesisLoop2_4_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesisLoop2_4_5
+[       OK ] PnRegSynthesizer1.synthesisLoop2_4_5 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesisLoop2_4_5" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesisLoop2_4_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/106 Testing: PnRegSynthesizer1.synthesisLoop2_4_3
+37/106 Test: PnRegSynthesizer1.synthesisLoop2_4_3
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesisLoop2_4_3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesisLoop2_4_3" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesisLoop2_4_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesisLoop2_4_3
+[       OK ] PnRegSynthesizer1.synthesisLoop2_4_3 (2 ms)
+[----------] 1 test from PnRegSynthesizer1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesisLoop2_4_3" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesisLoop2_4_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/106 Testing: PnRegSynthesizer1.synthesisLoop2_4_4
+38/106 Test: PnRegSynthesizer1.synthesisLoop2_4_4
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesisLoop2_4_4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesisLoop2_4_4" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesisLoop2_4_4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesisLoop2_4_4
+[       OK ] PnRegSynthesizer1.synthesisLoop2_4_4 (1 ms)
+[----------] 1 test from PnRegSynthesizer1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesisLoop2_4_4" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesisLoop2_4_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/106 Testing: PnRegSynthesizer1.synthesis3
+39/106 Test: PnRegSynthesizer1.synthesis3
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthesis3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthesis3" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthesis3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthesis3
+[       OK ] PnRegSynthesizer1.synthesis3 (3 ms)
+[----------] 1 test from PnRegSynthesizer1 (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthesis3" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthesis3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/106 Testing: PnRegSynthesizer1.synthZubkova1
+40/106 Test: PnRegSynthesizer1.synthZubkova1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=PnRegSynthesizer1.synthZubkova1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"PnRegSynthesizer1.synthZubkova1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = PnRegSynthesizer1.synthZubkova1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PnRegSynthesizer1
+[ RUN      ] PnRegSynthesizer1.synthZubkova1
+[       OK ] PnRegSynthesizer1.synthZubkova1 (2 ms)
+[----------] 1 test from PnRegSynthesizer1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PnRegSynthesizer1.synthZubkova1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"PnRegSynthesizer1.synthZubkova1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/106 Testing: BasePTNet_1_Test.simplest
+41/106 Test: BasePTNet_1_Test.simplest
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BasePTNet_1_Test.simplest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BasePTNet_1_Test.simplest" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BasePTNet_1_Test.simplest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasePTNet_1_Test
+[ RUN      ] BasePTNet_1_Test.simplest
+[       OK ] BasePTNet_1_Test.simplest (0 ms)
+[----------] 1 test from BasePTNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BasePTNet_1_Test.simplest" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BasePTNet_1_Test.simplest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/106 Testing: BasePTNet_1_Test.marking1
+42/106 Test: BasePTNet_1_Test.marking1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BasePTNet_1_Test.marking1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BasePTNet_1_Test.marking1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BasePTNet_1_Test.marking1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasePTNet_1_Test
+[ RUN      ] BasePTNet_1_Test.marking1
+[       OK ] BasePTNet_1_Test.marking1 (0 ms)
+[----------] 1 test from BasePTNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BasePTNet_1_Test.marking1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BasePTNet_1_Test.marking1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/106 Testing: BasePTNet_1_Test.enabledTransition1
+43/106 Test: BasePTNet_1_Test.enabledTransition1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=BasePTNet_1_Test.enabledTransition1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"BasePTNet_1_Test.enabledTransition1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = BasePTNet_1_Test.enabledTransition1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasePTNet_1_Test
+[ RUN      ] BasePTNet_1_Test.enabledTransition1
+[       OK ] BasePTNet_1_Test.enabledTransition1 (0 ms)
+[----------] 1 test from BasePTNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BasePTNet_1_Test.enabledTransition1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"BasePTNet_1_Test.enabledTransition1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/106 Testing: EventLogPetriNet_1_Test.simplest
+44/106 Test: EventLogPetriNet_1_Test.simplest
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogPetriNet_1_Test.simplest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogPetriNet_1_Test.simplest" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogPetriNet_1_Test.simplest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogPetriNet_1_Test
+[ RUN      ] EventLogPetriNet_1_Test.simplest
+[       OK ] EventLogPetriNet_1_Test.simplest (0 ms)
+[----------] 1 test from EventLogPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogPetriNet_1_Test.simplest" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogPetriNet_1_Test.simplest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/106 Testing: EventLogPetriNet_1_Test.pn1
+45/106 Test: EventLogPetriNet_1_Test.pn1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogPetriNet_1_Test.pn1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogPetriNet_1_Test.pn1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogPetriNet_1_Test.pn1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogPetriNet_1_Test
+[ RUN      ] EventLogPetriNet_1_Test.pn1
+[       OK ] EventLogPetriNet_1_Test.pn1 (0 ms)
+[----------] 1 test from EventLogPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogPetriNet_1_Test.pn1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogPetriNet_1_Test.pn1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/106 Testing: EventLogPetriNet_1_Test.pnWithMarking1
+46/106 Test: EventLogPetriNet_1_Test.pnWithMarking1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogPetriNet_1_Test.pnWithMarking1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogPetriNet_1_Test.pnWithMarking1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogPetriNet_1_Test.pnWithMarking1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogPetriNet_1_Test
+[ RUN      ] EventLogPetriNet_1_Test.pnWithMarking1
+[       OK ] EventLogPetriNet_1_Test.pnWithMarking1 (0 ms)
+[----------] 1 test from EventLogPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogPetriNet_1_Test.pnWithMarking1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogPetriNet_1_Test.pnWithMarking1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/106 Testing: GenPetriNet_1_Test.simplest
+47/106 Test: GenPetriNet_1_Test.simplest
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GenPetriNet_1_Test.simplest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GenPetriNet_1_Test.simplest" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GenPetriNet_1_Test.simplest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GenPetriNet_1_Test
+[ RUN      ] GenPetriNet_1_Test.simplest
+[       OK ] GenPetriNet_1_Test.simplest (0 ms)
+[----------] 1 test from GenPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GenPetriNet_1_Test.simplest" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GenPetriNet_1_Test.simplest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/106 Testing: GenPetriNet_1_Test.createEmptyPn1
+48/106 Test: GenPetriNet_1_Test.createEmptyPn1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GenPetriNet_1_Test.createEmptyPn1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GenPetriNet_1_Test.createEmptyPn1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GenPetriNet_1_Test.createEmptyPn1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GenPetriNet_1_Test
+[ RUN      ] GenPetriNet_1_Test.createEmptyPn1
+[       OK ] GenPetriNet_1_Test.createEmptyPn1 (0 ms)
+[----------] 1 test from GenPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GenPetriNet_1_Test.createEmptyPn1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GenPetriNet_1_Test.createEmptyPn1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/106 Testing: GenPetriNet_1_Test.getPositionsTransitions1
+49/106 Test: GenPetriNet_1_Test.getPositionsTransitions1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GenPetriNet_1_Test.getPositionsTransitions1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GenPetriNet_1_Test.getPositionsTransitions1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GenPetriNet_1_Test.getPositionsTransitions1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GenPetriNet_1_Test
+[ RUN      ] GenPetriNet_1_Test.getPositionsTransitions1
+[       OK ] GenPetriNet_1_Test.getPositionsTransitions1 (0 ms)
+[----------] 1 test from GenPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GenPetriNet_1_Test.getPositionsTransitions1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GenPetriNet_1_Test.getPositionsTransitions1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/106 Testing: GenPetriNet_1_Test.addPosTransArcs1
+50/106 Test: GenPetriNet_1_Test.addPosTransArcs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GenPetriNet_1_Test.addPosTransArcs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GenPetriNet_1_Test.addPosTransArcs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GenPetriNet_1_Test.addPosTransArcs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GenPetriNet_1_Test
+[ RUN      ] GenPetriNet_1_Test.addPosTransArcs1
+[       OK ] GenPetriNet_1_Test.addPosTransArcs1 (0 ms)
+[----------] 1 test from GenPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GenPetriNet_1_Test.addPosTransArcs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GenPetriNet_1_Test.addPosTransArcs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/106 Testing: GenPetriNet_1_Test.inOutArcs1
+51/106 Test: GenPetriNet_1_Test.inOutArcs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GenPetriNet_1_Test.inOutArcs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GenPetriNet_1_Test.inOutArcs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GenPetriNet_1_Test.inOutArcs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GenPetriNet_1_Test
+[ RUN      ] GenPetriNet_1_Test.inOutArcs1
+[       OK ] GenPetriNet_1_Test.inOutArcs1 (0 ms)
+[----------] 1 test from GenPetriNet_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GenPetriNet_1_Test.inOutArcs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GenPetriNet_1_Test.inOutArcs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/106 Testing: EventLogTsFreqDotWriter1.simpleFreqTs1
+52/106 Test: EventLogTsFreqDotWriter1.simpleFreqTs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsFreqDotWriter1.simpleFreqTs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsFreqDotWriter1.simpleFreqTs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsFreqDotWriter1.simpleFreqTs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsFreqDotWriter1
+[ RUN      ] EventLogTsFreqDotWriter1.simpleFreqTs1
+[       OK ] EventLogTsFreqDotWriter1.simpleFreqTs1 (0 ms)
+[----------] 1 test from EventLogTsFreqDotWriter1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsFreqDotWriter1.simpleFreqTs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsFreqDotWriter1.simpleFreqTs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/106 Testing: GraphDotWriter.open1
+53/106 Test: GraphDotWriter.open1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GraphDotWriter.open1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GraphDotWriter.open1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphDotWriter.open1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphDotWriter
+[ RUN      ] GraphDotWriter.open1
+[       OK ] GraphDotWriter.open1 (0 ms)
+[----------] 1 test from GraphDotWriter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GraphDotWriter.open1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GraphDotWriter.open1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/106 Testing: GraphDotWriter.write1
+54/106 Test: GraphDotWriter.write1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=GraphDotWriter.write1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"GraphDotWriter.write1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = GraphDotWriter.write1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphDotWriter
+[ RUN      ] GraphDotWriter.write1
+[       OK ] GraphDotWriter.write1 (0 ms)
+[----------] 1 test from GraphDotWriter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GraphDotWriter.write1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"GraphDotWriter.write1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/106 Testing: EventLogTsBuilder_1Test.simple
+55/106 Test: EventLogTsBuilder_1Test.simple
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsBuilder_1Test.simple" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsBuilder_1Test.simple" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsBuilder_1Test.simple
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsBuilder_1Test
+[ RUN      ] EventLogTsBuilder_1Test.simple
+[       OK ] EventLogTsBuilder_1Test.simple (0 ms)
+[----------] 1 test from EventLogTsBuilder_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsBuilder_1Test.simple" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsBuilder_1Test.simple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/106 Testing: EventLogTsBuilder_1Test.TsBuilderBasics1
+56/106 Test: EventLogTsBuilder_1Test.TsBuilderBasics1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsBuilder_1Test.TsBuilderBasics1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsBuilder_1Test.TsBuilderBasics1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsBuilder_1Test.TsBuilderBasics1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsBuilder_1Test
+[ RUN      ] EventLogTsBuilder_1Test.TsBuilderBasics1
+[       OK ] EventLogTsBuilder_1Test.TsBuilderBasics1 (0 ms)
+[----------] 1 test from EventLogTsBuilder_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsBuilder_1Test.TsBuilderBasics1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsBuilder_1Test.TsBuilderBasics1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/106 Testing: EventLogTsBuilder_1Test.stateId1
+57/106 Test: EventLogTsBuilder_1Test.stateId1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsBuilder_1Test.stateId1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsBuilder_1Test.stateId1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsBuilder_1Test.stateId1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsBuilder_1Test
+[ RUN      ] EventLogTsBuilder_1Test.stateId1
+[       OK ] EventLogTsBuilder_1Test.stateId1 (0 ms)
+[----------] 1 test from EventLogTsBuilder_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsBuilder_1Test.stateId1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsBuilder_1Test.stateId1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/106 Testing: EventLogTsBuilder_1Test.buildInfWs1
+58/106 Test: EventLogTsBuilder_1Test.buildInfWs1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsBuilder_1Test.buildInfWs1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsBuilder_1Test.buildInfWs1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsBuilder_1Test.buildInfWs1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsBuilder_1Test
+[ RUN      ] EventLogTsBuilder_1Test.buildInfWs1
+[       OK ] EventLogTsBuilder_1Test.buildInfWs1 (0 ms)
+[----------] 1 test from EventLogTsBuilder_1Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsBuilder_1Test.buildInfWs1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsBuilder_1Test.buildInfWs1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/106 Testing: TsMiscConverters1.selfLoopEliminate1
+59/106 Test: TsMiscConverters1.selfLoopEliminate1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsMiscConverters1.selfLoopEliminate1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsMiscConverters1.selfLoopEliminate1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsMiscConverters1.selfLoopEliminate1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsMiscConverters1
+[ RUN      ] TsMiscConverters1.selfLoopEliminate1
+[       OK ] TsMiscConverters1.selfLoopEliminate1 (1 ms)
+[----------] 1 test from TsMiscConverters1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsMiscConverters1.selfLoopEliminate1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsMiscConverters1.selfLoopEliminate1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/106 Testing: TsSimpleBuilder_1_Test.settings1
+60/106 Test: TsSimpleBuilder_1_Test.settings1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.settings1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.settings1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.settings1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.settings1
+[       OK ] TsSimpleBuilder_1_Test.settings1 (0 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.settings1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.settings1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/106 Testing: TsSimpleBuilder_1_Test.aSimpleMineSettings1
+61/106 Test: TsSimpleBuilder_1_Test.aSimpleMineSettings1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.aSimpleMineSettings1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.aSimpleMineSettings1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.aSimpleMineSettings1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.aSimpleMineSettings1
+[       OK ] TsSimpleBuilder_1_Test.aSimpleMineSettings1 (0 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.aSimpleMineSettings1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.aSimpleMineSettings1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/106 Testing: TsSimpleBuilder_1_Test.buildSimpleLog1
+62/106 Test: TsSimpleBuilder_1_Test.buildSimpleLog1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.buildSimpleLog1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.buildSimpleLog1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.buildSimpleLog1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.buildSimpleLog1
+[       OK ] TsSimpleBuilder_1_Test.buildSimpleLog1 (1 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.buildSimpleLog1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.buildSimpleLog1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/106 Testing: TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1
+63/106 Test: TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1
+[       OK ] TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1 (1 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.buildAndReduceSimpleLog1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/106 Testing: TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1
+64/106 Test: TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1
+[       OK ] TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1 (3 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.reduceRebuiltSimpleLog1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/106 Testing: TsSimpleBuilder_1_Test.calcPrecision1
+65/106 Test: TsSimpleBuilder_1_Test.calcPrecision1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.calcPrecision1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.calcPrecision1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.calcPrecision1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.calcPrecision1
+[       OK ] TsSimpleBuilder_1_Test.calcPrecision1 (1 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.calcPrecision1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.calcPrecision1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/106 Testing: TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1
+66/106 Test: TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1
+[       OK ] TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1 (2 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_Vis1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/106 Testing: TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1
+67/106 Test: TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsSimpleBuilder_1_Test
+[ RUN      ] TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1
+[       OK ] TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1 (2 ms)
+[----------] 1 test from TsSimpleBuilder_1_Test (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsSimpleBuilder_1_Test.buildSimpleTsFromLog4_SingleAcptState1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/106 Testing: EventLogTs2.AttrListStateId1
+68/106 Test: EventLogTs2.AttrListStateId1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.AttrListStateId1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.AttrListStateId1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.AttrListStateId1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.AttrListStateId1
+[       OK ] EventLogTs2.AttrListStateId1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.AttrListStateId1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.AttrListStateId1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/106 Testing: EventLogTs2.simpleWithInit
+69/106 Test: EventLogTs2.simpleWithInit
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.simpleWithInit" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.simpleWithInit" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.simpleWithInit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.simpleWithInit
+[       OK ] EventLogTs2.simpleWithInit (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.simpleWithInit" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.simpleWithInit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/106 Testing: EventLogTs2.simpleAddEmpty1
+70/106 Test: EventLogTs2.simpleAddEmpty1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.simpleAddEmpty1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.simpleAddEmpty1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.simpleAddEmpty1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.simpleAddEmpty1
+[       OK ] EventLogTs2.simpleAddEmpty1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.simpleAddEmpty1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.simpleAddEmpty1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/106 Testing: EventLogTs2.simpleTS1
+71/106 Test: EventLogTs2.simpleTS1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.simpleTS1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.simpleTS1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.simpleTS1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.simpleTS1
+[       OK ] EventLogTs2.simpleTS1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.simpleTS1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.simpleTS1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/106 Testing: EventLogTs2.simpleTSCopyConstr1
+72/106 Test: EventLogTs2.simpleTSCopyConstr1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.simpleTSCopyConstr1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.simpleTSCopyConstr1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.simpleTSCopyConstr1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.simpleTSCopyConstr1
+[       OK ] EventLogTs2.simpleTSCopyConstr1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.simpleTSCopyConstr1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.simpleTSCopyConstr1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/106 Testing: EventLogTs2.duplicateAttrsInPool1
+73/106 Test: EventLogTs2.duplicateAttrsInPool1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.duplicateAttrsInPool1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.duplicateAttrsInPool1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.duplicateAttrsInPool1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.duplicateAttrsInPool1
+[       OK ] EventLogTs2.duplicateAttrsInPool1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.duplicateAttrsInPool1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.duplicateAttrsInPool1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/106 Testing: EventLogTs2.attrListStateIDsPool1
+74/106 Test: EventLogTs2.attrListStateIDsPool1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs2.attrListStateIDsPool1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs2.attrListStateIDsPool1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs2.attrListStateIDsPool1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs2
+[ RUN      ] EventLogTs2.attrListStateIDsPool1
+[       OK ] EventLogTs2.attrListStateIDsPool1 (0 ms)
+[----------] 1 test from EventLogTs2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs2.attrListStateIDsPool1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs2.attrListStateIDsPool1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/106 Testing: EventLogTsFreq1.simpleTSCopyConstr1
+75/106 Test: EventLogTsFreq1.simpleTSCopyConstr1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsFreq1.simpleTSCopyConstr1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsFreq1.simpleTSCopyConstr1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsFreq1.simpleTSCopyConstr1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsFreq1
+[ RUN      ] EventLogTsFreq1.simpleTSCopyConstr1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(73): error: Value of: ts2.isStateAccepting(st2_b)
+  Actual: false
+Expected: true
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(74): error: Value of: ts2.getTransFreq(t2b).second
+  Actual: false
+Expected: true
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(75): error: Expected equality of these values:
+  42
+  ts2.getTransFreq(t2b).first
+    Which is: 0
+[  FAILED  ] EventLogTsFreq1.simpleTSCopyConstr1 (0 ms)
+[----------] 1 test from EventLogTsFreq1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EventLogTsFreq1.simpleTSCopyConstr1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"EventLogTsFreq1.simpleTSCopyConstr1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsFreq1.simpleTSCopyConstr1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/106 Testing: EventLogTsFreq1.addMultipleTrans1
+76/106 Test: EventLogTsFreq1.addMultipleTrans1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsFreq1.addMultipleTrans1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsFreq1.addMultipleTrans1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsFreq1.addMultipleTrans1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsFreq1
+[ RUN      ] EventLogTsFreq1.addMultipleTrans1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(125): error: Expected equality of these values:
+  2
+  ts1.getTransitionsNum()
+    Which is: 4
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(129): error: Expected equality of these values:
+  3
+  ta_fr.first
+    Which is: 1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(132): error: Value of: tb_fr.second
+  Actual: false
+Expected: true
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\evlog_ts_red_1_test.cpp(133): error: Expected equality of these values:
+  2
+  tb_fr.first
+    Which is: 0
+[  FAILED  ] EventLogTsFreq1.addMultipleTrans1 (0 ms)
+[----------] 1 test from EventLogTsFreq1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EventLogTsFreq1.addMultipleTrans1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"EventLogTsFreq1.addMultipleTrans1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsFreq1.addMultipleTrans1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/106 Testing: EventLogTsFreq1.acceptingState1
+77/106 Test: EventLogTsFreq1.acceptingState1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTsFreq1.acceptingState1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTsFreq1.acceptingState1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTsFreq1.acceptingState1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTsFreq1
+[ RUN      ] EventLogTsFreq1.acceptingState1
+[       OK ] EventLogTsFreq1.acceptingState1 (0 ms)
+[----------] 1 test from EventLogTsFreq1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTsFreq1.acceptingState1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTsFreq1.acceptingState1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/106 Testing: LabeledTS_1_Test.simplest
+78/106 Test: LabeledTS_1_Test.simplest
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.simplest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.simplest" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.simplest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.simplest
+[       OK ] LabeledTS_1_Test.simplest (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.simplest" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.simplest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/106 Testing: LabeledTS_1_Test.Lts1AddStates1
+79/106 Test: LabeledTS_1_Test.Lts1AddStates1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.Lts1AddStates1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.Lts1AddStates1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.Lts1AddStates1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.Lts1AddStates1
+[       OK ] LabeledTS_1_Test.Lts1AddStates1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.Lts1AddStates1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.Lts1AddStates1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/106 Testing: LabeledTS_1_Test.StatePropertyTypes1
+80/106 Test: LabeledTS_1_Test.StatePropertyTypes1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.StatePropertyTypes1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.StatePropertyTypes1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.StatePropertyTypes1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.StatePropertyTypes1
+[       OK ] LabeledTS_1_Test.StatePropertyTypes1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.StatePropertyTypes1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.StatePropertyTypes1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/106 Testing: LabeledTS_1_Test.StatePropertyTypes2
+81/106 Test: LabeledTS_1_Test.StatePropertyTypes2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.StatePropertyTypes2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.StatePropertyTypes2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.StatePropertyTypes2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.StatePropertyTypes2
+[       OK ] LabeledTS_1_Test.StatePropertyTypes2 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.StatePropertyTypes2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.StatePropertyTypes2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/106 Testing: LabeledTS_1_Test.StateProperties1
+82/106 Test: LabeledTS_1_Test.StateProperties1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.StateProperties1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.StateProperties1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.StateProperties1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.StateProperties1
+[       OK ] LabeledTS_1_Test.StateProperties1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.StateProperties1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.StateProperties1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/106 Testing: LabeledTS_1_Test.StateProperties2
+83/106 Test: LabeledTS_1_Test.StateProperties2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.StateProperties2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.StateProperties2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.StateProperties2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.StateProperties2
+[       OK ] LabeledTS_1_Test.StateProperties2 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.StateProperties2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.StateProperties2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/106 Testing: LabeledTS_1_Test.TransPropertyTypes1
+84/106 Test: LabeledTS_1_Test.TransPropertyTypes1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.TransPropertyTypes1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.TransPropertyTypes1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.TransPropertyTypes1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.TransPropertyTypes1
+C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\tests\gtest\src\ts\models\labeledts_1_test.cpp(289): error: Expected equality of these values:
+  "Hello World"
+    Which is: 00007FF6EE24CE38
+  Lts1::extractTransLbl(sp1)
+    Which is: 00007FF6EE24CE28
+[  FAILED  ] LabeledTS_1_Test.TransPropertyTypes1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LabeledTS_1_Test.TransPropertyTypes1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"LabeledTS_1_Test.TransPropertyTypes1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.TransPropertyTypes1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/106 Testing: LabeledTS_1_Test.TransPropertyTypes2
+85/106 Test: LabeledTS_1_Test.TransPropertyTypes2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.TransPropertyTypes2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.TransPropertyTypes2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.TransPropertyTypes2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.TransPropertyTypes2
+[       OK ] LabeledTS_1_Test.TransPropertyTypes2 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.TransPropertyTypes2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.TransPropertyTypes2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/106 Testing: LabeledTS_1_Test.TransProperties1
+86/106 Test: LabeledTS_1_Test.TransProperties1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.TransProperties1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.TransProperties1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.TransProperties1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.TransProperties1
+[       OK ] LabeledTS_1_Test.TransProperties1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.TransProperties1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.TransProperties1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/106 Testing: LabeledTS_1_Test.TransPropertyTypes3
+87/106 Test: LabeledTS_1_Test.TransPropertyTypes3
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.TransPropertyTypes3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.TransPropertyTypes3" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.TransPropertyTypes3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.TransPropertyTypes3
+[       OK ] LabeledTS_1_Test.TransPropertyTypes3 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.TransPropertyTypes3" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.TransPropertyTypes3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/106 Testing: LabeledTS_1_Test.TransProperties2
+88/106 Test: LabeledTS_1_Test.TransProperties2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.TransProperties2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.TransProperties2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.TransProperties2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.TransProperties2
+[       OK ] LabeledTS_1_Test.TransProperties2 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.TransProperties2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.TransProperties2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/106 Testing: LabeledTS_1_Test.RemoveTrans1
+89/106 Test: LabeledTS_1_Test.RemoveTrans1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.RemoveTrans1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.RemoveTrans1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.RemoveTrans1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.RemoveTrans1
+[       OK ] LabeledTS_1_Test.RemoveTrans1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.RemoveTrans1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.RemoveTrans1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/106 Testing: LabeledTS_1_Test.RemoveTrans2
+90/106 Test: LabeledTS_1_Test.RemoveTrans2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.RemoveTrans2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.RemoveTrans2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.RemoveTrans2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.RemoveTrans2
+[       OK ] LabeledTS_1_Test.RemoveTrans2 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.RemoveTrans2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.RemoveTrans2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/106 Testing: LabeledTS_1_Test.RemoveState1
+91/106 Test: LabeledTS_1_Test.RemoveState1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.RemoveState1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.RemoveState1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.RemoveState1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.RemoveState1
+[       OK ] LabeledTS_1_Test.RemoveState1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.RemoveState1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.RemoveState1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/106 Testing: LabeledTS_1_Test.ParallelTrans1
+92/106 Test: LabeledTS_1_Test.ParallelTrans1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.ParallelTrans1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.ParallelTrans1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.ParallelTrans1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.ParallelTrans1
+[       OK ] LabeledTS_1_Test.ParallelTrans1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.ParallelTrans1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.ParallelTrans1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/106 Testing: LabeledTS_1_Test.AnonTrans1
+93/106 Test: LabeledTS_1_Test.AnonTrans1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.AnonTrans1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.AnonTrans1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.AnonTrans1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.AnonTrans1
+[       OK ] LabeledTS_1_Test.AnonTrans1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.AnonTrans1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.AnonTrans1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/106 Testing: LabeledTS_1_Test.CopyConstrTS1
+94/106 Test: LabeledTS_1_Test.CopyConstrTS1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.CopyConstrTS1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.CopyConstrTS1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.CopyConstrTS1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.CopyConstrTS1
+[       OK ] LabeledTS_1_Test.CopyConstrTS1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.CopyConstrTS1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.CopyConstrTS1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/106 Testing: LabeledTS_1_Test.CopyOperTS1
+95/106 Test: LabeledTS_1_Test.CopyOperTS1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.CopyOperTS1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.CopyOperTS1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.CopyOperTS1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.CopyOperTS1
+[       OK ] LabeledTS_1_Test.CopyOperTS1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.CopyOperTS1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.CopyOperTS1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/106 Testing: LabeledTS_1_Test.BglTypes1
+96/106 Test: LabeledTS_1_Test.BglTypes1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=LabeledTS_1_Test.BglTypes1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"LabeledTS_1_Test.BglTypes1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = LabeledTS_1_Test.BglTypes1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabeledTS_1_Test
+[ RUN      ] LabeledTS_1_Test.BglTypes1
+[       OK ] LabeledTS_1_Test.BglTypes1 (0 ms)
+[----------] 1 test from LabeledTS_1_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LabeledTS_1_Test.BglTypes1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"LabeledTS_1_Test.BglTypes1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/106 Testing: TsPtrStateId1.equality1
+97/106 Test: TsPtrStateId1.equality1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsPtrStateId1.equality1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsPtrStateId1.equality1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsPtrStateId1.equality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsPtrStateId1
+[ RUN      ] TsPtrStateId1.equality1
+[       OK ] TsPtrStateId1.equality1 (0 ms)
+[----------] 1 test from TsPtrStateId1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsPtrStateId1.equality1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsPtrStateId1.equality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/106 Testing: TsPtrStateId1.append1
+98/106 Test: TsPtrStateId1.append1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsPtrStateId1.append1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsPtrStateId1.append1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsPtrStateId1.append1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsPtrStateId1
+[ RUN      ] TsPtrStateId1.append1
+[       OK ] TsPtrStateId1.append1 (0 ms)
+[----------] 1 test from TsPtrStateId1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsPtrStateId1.append1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsPtrStateId1.append1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/106 Testing: TsPtrStateId1.moveSemantics1
+99/106 Test: TsPtrStateId1.moveSemantics1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsPtrStateId1.moveSemantics1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsPtrStateId1.moveSemantics1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsPtrStateId1.moveSemantics1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsPtrStateId1
+[ RUN      ] TsPtrStateId1.moveSemantics1
+[       OK ] TsPtrStateId1.moveSemantics1 (0 ms)
+[----------] 1 test from TsPtrStateId1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsPtrStateId1.moveSemantics1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsPtrStateId1.moveSemantics1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/106 Testing: TsPtrStateId1.lessThan1
+100/106 Test: TsPtrStateId1.lessThan1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=TsPtrStateId1.lessThan1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"TsPtrStateId1.lessThan1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TsPtrStateId1.lessThan1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TsPtrStateId1
+[ RUN      ] TsPtrStateId1.lessThan1
+[       OK ] TsPtrStateId1.lessThan1 (0 ms)
+[----------] 1 test from TsPtrStateId1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TsPtrStateId1.lessThan1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"TsPtrStateId1.lessThan1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/106 Testing: EventLogTs1.add1
+101/106 Test: EventLogTs1.add1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.add1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.add1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.add1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.add1
+[       OK ] EventLogTs1.add1 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.add1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.add1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/106 Testing: EventLogTs1.defState1
+102/106 Test: EventLogTs1.defState1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.defState1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.defState1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.defState1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.defState1
+[       OK ] EventLogTs1.defState1 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.defState1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.defState1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/106 Testing: EventLogTs1.addTrans2
+103/106 Test: EventLogTs1.addTrans2
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.addTrans2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.addTrans2" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.addTrans2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.addTrans2
+[       OK ] EventLogTs1.addTrans2 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.addTrans2" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.addTrans2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/106 Testing: EventLogTs1.freqAttribute1
+104/106 Test: EventLogTs1.freqAttribute1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.freqAttribute1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.freqAttribute1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.freqAttribute1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.freqAttribute1
+[       OK ] EventLogTs1.freqAttribute1 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.freqAttribute1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.freqAttribute1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/106 Testing: EventLogTs1.stateFlags1
+105/106 Test: EventLogTs1.stateFlags1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.stateFlags1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.stateFlags1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.stateFlags1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.stateFlags1
+[       OK ] EventLogTs1.stateFlags1 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.stateFlags1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.stateFlags1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/106 Testing: EventLogTs1.stateFlagsAttribute1
+106/106 Test: EventLogTs1.stateFlagsAttribute1
+Command: "C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio/ldopatests.exe" "--gtest_filter=EventLogTs1.stateFlagsAttribute1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug-visual-studio
+"EventLogTs1.stateFlagsAttribute1" start time: Jan 29 15:44 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\maxga\CLionProjects\190506143700_ldopa-0.1.2\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = EventLogTs1.stateFlagsAttribute1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventLogTs1
+[ RUN      ] EventLogTs1.stateFlagsAttribute1
+[       OK ] EventLogTs1.stateFlagsAttribute1 (0 ms)
+[----------] 1 test from EventLogTs1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EventLogTs1.stateFlagsAttribute1" end time: Jan 29 15:44 RTZ 2 (çèìà)
+"EventLogTs1.stateFlagsAttribute1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 29 15:44 RTZ 2 (çèìà)

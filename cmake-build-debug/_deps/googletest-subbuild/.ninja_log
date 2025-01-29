@@ -1,0 +1,21 @@
+# ninja log v5
+1809	1839	7591742741632331	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dfc122756114e4d3
+1	37	7591742723615312	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e113d001b938c99
+1719	1749	7591742740731451	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	f526f593f0616787
+1868	1898	7591742742220751	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	93f2ce2d961be5f0
+1	37	7591742723615312	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e113d001b938c99
+37	1719	7591742740428771	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	56afbe680d93ed45
+37	1719	7591742740428771	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	56afbe680d93ed45
+1719	1749	7591742740731451	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	f526f593f0616787
+1809	1839	7591742741632331	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dfc122756114e4d3
+1749	1779	7591742741031558	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5f0eb288ff34e00e
+1749	1779	7591742741031558	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5f0eb288ff34e00e
+1779	1809	7591742741335712	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	5a60789d0cbaa932
+1898	1939	7591742742631217	CMakeFiles/googletest-populate-complete	1ab7bfea6ec8e266
+1779	1809	7591742741335712	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	5a60789d0cbaa932
+1839	1868	7591742741925197	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	981ee9fb058cf205
+1839	1868	7591742741925197	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	981ee9fb058cf205
+1868	1898	7591742742220751	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	93f2ce2d961be5f0
+1898	1939	7591742742631217	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	1ab7bfea6ec8e266
+1898	1939	7591742742631217	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	1ab7bfea6ec8e266
+1898	1939	7591742742631217	C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	1ab7bfea6ec8e266

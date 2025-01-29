@@ -1,0 +1,17 @@
+digraph G {
+    node [width=0.5];
+x5a16c690 [label="[]"]
+x5a16cba0 [label="[s5]"]
+x5a16c720 [label="[s6]"]
+x5a16ca80 [label="[s7]"]
+x5a16cc30 [label="[s8]"]
+x5a16cd50 [label="[s9]"]
+x5a1b03a0 [label="[s10]",peripheries=2]
+x5a16c690 -> x5a16cba0 [label="book_flight"]
+x5a16cba0 -> x5a16c720 [label="send_email"]
+x5a16c720 -> x5a16ca80 [label="choose_payment_type"]
+x5a16ca80 -> x5a16cc30 [label="pay_by_web_money"]
+x5a16cc30 -> x5a1b03a0 [label="complete_booking"]
+x5a16ca80 -> x5a16cd50 [label="cancel"]
+x5a16cd50 -> x5a1b03a0 [label="send_email"]
+}

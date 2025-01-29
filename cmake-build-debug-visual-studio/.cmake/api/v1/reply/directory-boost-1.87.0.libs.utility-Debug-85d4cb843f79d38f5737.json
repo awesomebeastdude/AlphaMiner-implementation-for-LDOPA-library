@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "boost-1.87.0/libs/utility",
+		"source" : "boost-1.87.0/libs/utility"
+	}
+}

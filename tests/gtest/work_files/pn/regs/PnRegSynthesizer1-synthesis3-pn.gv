@@ -1,0 +1,46 @@
+digraph G {
+    node [width=0.5];
+x25a018b0 [label="a",shape=box]
+x25a01940 [label="b",shape=box]
+x25a01280 [label="c",shape=box]
+x25a01550 [label="d",shape=box]
+x25a01700 [label="e",shape=box]
+x25a0ab70 [label="f",shape=box]
+x25a0ae40 [label="[],   (1)"]
+x25a0ad20 [label="[s5],[s2],[s6],"]
+x25a0a9c0 [label="[s2],[s4],[s6],"]
+x25a0a300 [label="[s5],[s2],[s3],"]
+x25a0a420 [label="[s5],[s3],[s7],"]
+x25a0a8a0 [label="[s2],[s4],[s3],"]
+x25a0a930 [label="[s4],[s3],[s7],"]
+x25a0aed0 [label="[s4],[s6],[s7],"]
+x25a0a6f0 [label="[s5],[s6],[s7],"]
+x25a0ae40 -> x25a018b0 
+x25a0ae40 -> x25a01940 
+x25a01700 -> x25a0ae40 
+x25a0ab70 -> x25a0ae40 
+x25a018b0 -> x25a0ad20 
+x25a01940 -> x25a0ad20 
+x25a0ad20 -> x25a01280 
+x25a018b0 -> x25a0a9c0 
+x25a0a9c0 -> x25a01280 
+x25a01550 -> x25a0a9c0 
+x25a0a9c0 -> x25a01700 
+x25a018b0 -> x25a0a300 
+x25a01940 -> x25a0a300 
+x25a0a300 -> x25a01550 
+x25a01940 -> x25a0a420 
+x25a01280 -> x25a0a420 
+x25a0a420 -> x25a01550 
+x25a0a420 -> x25a0ab70 
+x25a018b0 -> x25a0a8a0 
+x25a0a8a0 -> x25a01700 
+x25a01280 -> x25a0a930 
+x25a0a930 -> x25a01700 
+x25a0a930 -> x25a0ab70 
+x25a01550 -> x25a0aed0 
+x25a0aed0 -> x25a01700 
+x25a0aed0 -> x25a0ab70 
+x25a01940 -> x25a0a6f0 
+x25a0a6f0 -> x25a0ab70 
+}
