@@ -23,6 +23,8 @@ cmake_minimum_required(VERSION 3.10)
 add_library(sqlite3 STATIC
         sqlite3.c
         shell.c # optional, only if you want to use the sqlite3 shell functionality
+        sqlite3.h
+        sqlite3ext.h
 )
 
 # Define include directories for the library

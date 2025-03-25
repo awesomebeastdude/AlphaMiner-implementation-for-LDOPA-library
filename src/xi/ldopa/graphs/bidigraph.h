@@ -12,7 +12,7 @@
 #pragma once
 
 // xi.lib
-#include "xi/collections/enumerators_obsolete1.hpp"     // сент. 2017: новая версия теперь
+#include "xi/collections/enumerators_obsolete1.hpp"// сент. 2017: новая версия теперь
 
 // ldopa dll
 #include "xi/ldopa/ldopa_dll.h"

@@ -344,23 +344,23 @@ public:
     /** \brief Virtual destructor. */
     virtual ~BoostBidiGraphP()
     {
-        deleteGraph();
+        BoostGraphP<Graph>::deleteGraph();
     }
 
 public:
     //-----<BGL Shortcuts>----
 
     /** \brief Gets all input edges of a vertex \a v. */
-    inline IedgeIterPair getInEdges(Vertex v) { return boost::in_edges(v, getGraph()); }
+    inline IedgeIterPair getInEdges(Vertex v) { return boost::in_edges(v, BoostGraphP<Graph>::getGraph()); }
 
     /** \brief Gets all input edges of a vertex \a v (const). */
-    inline IedgeIterPair getInEdges(Vertex v) const { return boost::in_edges(v, getGraph()); }
+    inline IedgeIterPair getInEdges(Vertex v) const { return boost::in_edges(v, BoostGraphP<Graph>::getGraph()); }
 
     /** \brief Returns the numbers of input  edges of a vertix \a v. */
-    inline size_t getInEdgesNum(Vertex v) const { return (size_t)boost::in_degree(v, getGraph()); }
+    inline size_t getInEdgesNum(Vertex v) const { return (size_t)boost::in_degree(v, BoostGraphP<Graph>::getGraph()); }
 
      /** \brief Clears all input edges of a vertex \a v. */
-    inline void clearInEdges(Vertex v) { boost::clear_in_edges(v, getGraph()); }
+    inline void clearInEdges(Vertex v) { boost::clear_in_edges(v, BoostGraphP<Graph>::getGraph()); }
 
 }; // class BoostBidiGraphP
 

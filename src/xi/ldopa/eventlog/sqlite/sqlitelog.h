@@ -718,7 +718,7 @@ protected:
 
     /** \brief Requests a number of all activity classes (activities) from an open log. */
     void requestLogActivitiesNum();
-   
+
     /** \brief Extracts attributes of a log. */
     void extractLogAttributes();
 

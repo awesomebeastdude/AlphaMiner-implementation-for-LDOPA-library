@@ -1,8 +1,0 @@
-digraph "Test TS" {
-    x5ac29d40 [label="[]"]
-    x5ac29b90 [label="[a]"]
-    x5ac299e0 [label="[b]",peripheries=2]
-    x5ac29d40 -> x5ac29b90 [label="a"]
-    x5ac29d40 -> x5ac299e0 [label="b"]
-    x5ac29b90 -> x5ac299e0 [label="lambda"]
-}
