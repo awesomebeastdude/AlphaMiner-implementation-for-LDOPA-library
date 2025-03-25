@@ -1,0 +1,8 @@
+//
+// Created by maxga on 10.03.2025.
+//
+
+#ifndef LDOPALIB_ALPHA_PLUS_ALGORITHM_H
+#define LDOPALIB_ALPHA_PLUS_ALGORITHM_H
+
+#endif //LDOPALIB_ALPHA_PLUS_ALGORITHM_H
