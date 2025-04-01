@@ -4,15 +4,16 @@
 #include "xi/ldopa/pn/algos/grviz/base_ptnet_dotwriter.h"
 #include "xi/ldopa/pn/algos/alpha/alpha_plus_algorithm.h"
 #include "xi/ldopa/eventlog/obsolete1/csvlog.h"
+#include "xi/ldopa/eventlog/sqlite/sqlitelog.h"
 #include "xi/ldopa/pn/models/base_ptnet.h"
 #include "xi/ldopa/pn/models/gen_petrinet.h"
 #include "queue"
 
 namespace xi { namespace ldopa { namespace pn {
 
-class AlphaPlusPlusMiner : public AlphaPlusMiner {
+class AlphaPlusPlusMiner {
 public:
-    static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList) {
+    static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList,  MapLabeledPetriNet<>* PetriNet) {
         std::vector<std::vector<std::string>> TracesVec;
         size_t iter = 0;
         for (auto i = TracesList->enumerateTraces(); i->hasNext();) {
@@ -25,12 +26,26 @@ public:
             ++iter;
         }
 
-        MapLabeledPetriNet<> PetriNet;
-        AlphaPlusPlus(TracesVec, PetriNet);
-
-        MapLabeledPetriNetDotWriter sd;
-        sd.write("C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/tests/gtest/work_files/logs/TEST_1.gv", PetriNet);
+        AlphaPlusPlus(TracesVec, *PetriNet);
     }
+
+    static void GenPetriNetFromSQL(eventlog::SQLiteLog* Log, MapLabeledPetriNet<>* PetriNet){
+        std::vector<std::vector<std::string>> TracesVec;
+        auto _actAttrID = Log->getEvActAttrId();
+        size_t iter = 0;
+        for (auto i = 0; i < Log->getTracesNum(); ++i) {
+            TracesVec.emplace_back();
+            auto trace = Log->getTrace(i);
+            for (auto j = 0; j < trace->getSize(); ++j) {
+                auto event = trace->getEvent(j);
+                xi::ldopa::eventlog::IEventLog::Attribute actAttr;
+                event->getAttr(_actAttrID.c_str(), actAttr);
+                TracesVec[iter].push_back(actAttr.toString());
+            }
+            ++iter;
+        }
+        AlphaPlusPlus(TracesVec, *PetriNet);
+    };
 
 private:
     static void AlphaPlusPlus(std::vector<std::vector<std::string>>& TracesList,
@@ -342,7 +357,7 @@ private:
         bool Output_pos_used = false;
         xi::ldopa::pn::GenPetriNet<>::Position Output_pos;
 
-        std::map<std::pair<std::string, std::string>,  std::set<GenPetriNet<>::Position>> PlacesMap;
+        std::map<std::pair<std::string, std::string>,  std::set<MapLabeledPetriNet<>::Position>> PlacesMap;
         AddPlacesWithExclusion(PlacesMap, YwSet, LwSet, MLPN, Input_pos_used, Input_pos, Output_pos_used, Output_pos);
         AddPlacesWithExclusion(PlacesMap, ZwSet, LwSet, MLPN, Input_pos_used, Input_pos, Output_pos_used, Output_pos);
         AddPlacesFrom_LwSet(PlacesMap, LwSet, MLPN, Input_pos_used, Input_pos, Output_pos_used, Output_pos);
@@ -1508,6 +1523,14 @@ private:
             a_output.insert(i);
         }
         PositionMap.insert(std::make_pair(a_output, b_output));
+    }
+
+    static void EliminateTask(std::vector<std::string>& Trace, std::string& Event) {
+        for (auto i : Trace) {
+            if (i == Event) {
+                Trace.erase(std::remove(Trace.begin(), Trace.end(), Event), Trace.end());
+            }
+        }
     }
 };
 

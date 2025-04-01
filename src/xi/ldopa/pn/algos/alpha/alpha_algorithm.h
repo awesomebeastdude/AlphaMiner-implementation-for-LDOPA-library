@@ -21,7 +21,7 @@ namespace xi { namespace ldopa { namespace pn {
 
     class AlphaMiner {
     public:
-        static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList) {
+        static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList,  MapLabeledPetriNet<>* PetriNet) {
             std::vector<std::vector<std::string>> TracesVec;
             size_t iter = 0;
             for (auto i = TracesList->enumerateTraces(); i->hasNext();) {
@@ -34,12 +34,26 @@ namespace xi { namespace ldopa { namespace pn {
                 ++iter;
             }
 
-            MapLabeledPetriNet<> PetriNet;
-            Alpha(TracesVec, PetriNet);
-
-            MapLabeledPetriNetDotWriter sd;
-            sd.write("C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/tests/gtest/work_files/logs/TEST_1.gv",PetriNet);
+            Alpha(TracesVec, *PetriNet);
         }
+
+        static void GenPetriNetFromSQL(eventlog::SQLiteLog* Log, MapLabeledPetriNet<>* PetriNet){
+            std::vector<std::vector<std::string>> TracesVec;
+            auto _actAttrID = Log->getEvActAttrId();
+            size_t iter = 0;
+            for (auto i = 0; i < Log->getTracesNum(); ++i) {
+                TracesVec.emplace_back();
+                auto trace = Log->getTrace(i);
+                for (auto j = 0; j < trace->getSize(); ++j) {
+                    auto event = trace->getEvent(j);
+                    xi::ldopa::eventlog::IEventLog::Attribute actAttr;
+                    event->getAttr(_actAttrID.c_str(), actAttr);
+                    TracesVec[iter].push_back(actAttr.toString());
+                }
+                ++iter;
+            }
+            Alpha(TracesVec, *PetriNet);
+        };
 
     private:
         static void Alpha(
@@ -207,7 +221,6 @@ namespace xi { namespace ldopa { namespace pn {
                             BPN.addArcW(pos, t_b);
                             added_PT_arcs.insert(std::make_pair(pos, b));
                             PositionMap[std::make_pair(a, b)] = pos;
-                            //PositionMap[std::make_pair(b, a)] = pos;
                         }
                     }
                 }
@@ -224,7 +237,6 @@ namespace xi { namespace ldopa { namespace pn {
                     t = added_transitions[i];
                 }
                 BPN.addArcW(t, OutputPos);
-                //PositionMap[std::make_pair(i, "Output None")] = InputPos;
             }
         }
     };

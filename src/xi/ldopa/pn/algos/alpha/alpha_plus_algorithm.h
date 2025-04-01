@@ -10,8 +10,7 @@ namespace xi { namespace ldopa { namespace pn {
 
     class AlphaPlusMiner {
     public:
-
-        static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList) {
+        static void GenPetriNetFromCSVLog(eventlog::obsolete1::CSVLogTraces* TracesList,  MapLabeledPetriNet<>* PetriNet) {
             std::vector<std::vector<std::string>> TracesVec;
             size_t iter = 0;
             for (auto i = TracesList->enumerateTraces(); i->hasNext();) {
@@ -24,16 +23,30 @@ namespace xi { namespace ldopa { namespace pn {
                 ++iter;
             }
 
-            MapLabeledPetriNet<> PetriNet;
-            AlphaPlus(TracesVec, PetriNet);
-
-            MapLabeledPetriNetDotWriter sd;
-            sd.write("C:/Users/maxga/CLionProjects/190506143700_ldopa-0.1.2/tests/gtest/work_files/logs/TEST_1.gv",PetriNet);
+            AlphaPlus(TracesVec, *PetriNet);
         }
 
+        static void GenPetriNetFromSQL(eventlog::SQLiteLog* Log, MapLabeledPetriNet<>* PetriNet){
+            std::vector<std::vector<std::string>> TracesVec;
+            auto _actAttrID = Log->getEvActAttrId();
+            size_t iter = 0;
+            for (auto i = 0; i < Log->getTracesNum(); ++i) {
+                TracesVec.emplace_back();
+                auto trace = Log->getTrace(i);
+                for (auto j = 0; j < trace->getSize(); ++j) {
+                    auto event = trace->getEvent(j);
+                    xi::ldopa::eventlog::IEventLog::Attribute actAttr;
+                    event->getAttr(_actAttrID.c_str(), actAttr);
+                    TracesVec[iter].push_back(actAttr.toString());
+                }
+                ++iter;
+            }
+            AlphaPlus(TracesVec, *PetriNet);
+        };
 
+    private:
         static void AlphaPlus(std::vector<std::vector<std::string>>& TracesList,
-                                                MapLabeledPetriNet<>& MLPN_nL1L) {
+                              MapLabeledPetriNet<>& MLPN_nL1L) {
 
             /// step 1 and 2
             std::set<std::string> T_log;
@@ -46,7 +59,7 @@ namespace xi { namespace ldopa { namespace pn {
                     T_repeated_temp.insert(TracesList[i][j]);
                     if (j + 1 < TracesList[i].size()) {
                         if (TracesList[i][j] == TracesList[i][j + 1]) {
-                                L1L.insert(TracesList[i][j]);
+                            L1L.insert(TracesList[i][j]);
                         } else {
                             DirectionalMatrix[TracesList[i][j]].insert(TracesList[i][j + 1]);
                         }
@@ -133,8 +146,8 @@ namespace xi { namespace ldopa { namespace pn {
         }
 
         static void AlphaFixed(const std::vector<std::vector<std::string>>& TracesList, MapLabeledPetriNet<>& BPN,
-        std::map<std::pair<std::string, std::string>, GenPetriNet<>::Position>& PositionMap,
-                std::map<std::string,  GenPetriNet<>::Transition>& TransitionMap) {
+                               std::map<std::pair<std::string, std::string>, GenPetriNet<>::Position>& PositionMap,
+                               std::map<std::string,  GenPetriNet<>::Transition>& TransitionMap) {
 
             /// step 1 - 3
             std::set<std::string> FirstEventsSet;
@@ -146,7 +159,7 @@ namespace xi { namespace ldopa { namespace pn {
             std::map<std::string, std::set<std::string>> TriangleFollowMap;
             std::map<std::string, std::set<std::string>> CasualFollowMap;
 
-                /// Fist, Last, Direct and Triangle follow
+            /// Fist, Last, Direct and Triangle follow
             for (auto i : TracesList) {
                 for (auto j = 0; j < i.size(); ++j) {
                     if (!AllEventsSet.count(i[j])) {
@@ -166,7 +179,7 @@ namespace xi { namespace ldopa { namespace pn {
                     }
                 }
             }
-                /// Indirect follow
+            /// Indirect follow
             for (const auto& i : AllEventsSet) {
                 for (const auto& j : AllEventsSet) {
                     if (i != j && !DirFollowMap[i].count(j) && !DirFollowMap[j].count(i)) {
@@ -176,11 +189,11 @@ namespace xi { namespace ldopa { namespace pn {
                 }
             }
 
-                /// Casual follow
+            /// Casual follow
             for (const auto& i : AllEventsSet) {
                 for (const auto& j : AllEventsSet) {
                     if (i != j && DirFollowMap[i].count(j) && (!DirFollowMap[j].count(i) ||
-                    (TriangleFollowMap[i].count(j) && TriangleFollowMap[j].count(i)))) {
+                                                               (TriangleFollowMap[i].count(j) && TriangleFollowMap[j].count(i)))) {
                         CasualFollowMap[i].insert(j);
                     }
                 }
@@ -338,7 +351,6 @@ namespace xi { namespace ldopa { namespace pn {
             }
         }
     };
-
 }}} // namespace xi { namespace ldopa { namespace pn {
 
 #endif //LDOPALIB_ALPHA_PLUS_ALGORITHM_H
