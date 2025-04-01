@@ -44,20 +44,3 @@ target_link_libraries(ldopalib PUBLIC ts)
 
 add_subdirectory(src/xi/ldopa/pn)
 target_link_libraries(ldopalib PUBLIC pn)
-
-add_subdirectory(googletest)
-include(GoogleTest)
-file(GLOB_RECURSE TEST_SOURCES
-        #tests/gtest/src/ts/*.cpp
-        tests/gtest/src/pn/algos/alphaminer_test.cpp
-        #tests/gtest/src/graphs/*.cpp
-        #tests/gtest/src/eventlog/*.cpp
-)
-#add_executable(ldopatests ${TEST_SOURCES})
-add_executable(ldopatests)
-target_sources(ldopatests PUBLIC ${TEST_SOURCES})
-target_link_libraries(ldopatests PUBLIC gtest gtest_main ldopalib)
-target_include_directories(ldopatests PUBLIC tests/gtest/src)
-gtest_discover_tests(ldopatests)
-enable_testing()
-

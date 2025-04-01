@@ -3,7 +3,6 @@ target_sources(pn INTERFACE
         algos/alpha/alpha_algorithm.h
         algos/alpha/alpha_plus_algorithm.h
         algos/alpha/alpha_plusplus_algorithm.h
-        algos/alpha/alpha_triplus_alpgorithm.h
         algos/grviz/base_ptnet_dotwriter.h
         algos/grviz/evlog_ptnets_dotwriter.h
         algos/regions/pn_synthesis.h
